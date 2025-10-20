@@ -17,7 +17,7 @@ while True:
         if ...:
             led.duty_cycle = ...
         else:
-            led.duty_cycle
+            led.duty_cycle = ...     # this line should turn the light off!
 
     if event and event.released:
         is_pressed = ...
